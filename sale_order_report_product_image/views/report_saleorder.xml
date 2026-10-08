@@ -16,12 +16,6 @@
                     class="rounded"
                     style="max-width: 64px; max-height: 64px;"
                 />
-                <!-- if no image exists, a generic icon is expected -->
-                <span
-                    t-if="not line.product_id.image_128"
-                    t-field="line.product_id.image_128"
-                    t-options="{'widget': 'image', 'max_width': '64', 'class': 'rounded'}"
-                />
             </td>
         </td>
         <!--
